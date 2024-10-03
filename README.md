@@ -1,2 +1,2 @@
 # portifolio
-portifolio feito com nootstrap
+portifolio feito com Bootstrap
