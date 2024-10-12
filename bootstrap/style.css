@@ -14,10 +14,24 @@ body{
 
 h1{
     font-family:"Montserrat";
-    font-weight: 600;
+    font-weight: 700;
+}
+
+h2{
+    font-family:"Montserrat";
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 a{
     font-family:"Montserrat";
     font-weight: 600;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+footer p{
+    font-size: 0.95em;
 }
