@@ -2,36 +2,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #ffffff;
 }
 
-h1{
-    font-family:"Montserrat";
+h1 {
+    font-family: "Montserrat";
     font-weight: 700;
 }
 
-h2{
-    font-family:"Montserrat";
+
+h2 {
+    font-family: "Montserrat";
     font-weight: 500;
     line-height: 1.5;
 }
 
-a{
-    font-family:"Montserrat";
+a {
+    font-family: "Montserrat";
     font-weight: 600;
 }
 
-p{
+p {
     font-size: 1em;
 }
 
-footer p{
+footer p {
     font-size: 0.95em;
 }

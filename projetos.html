@@ -1,77 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <!--CSS Bootstrap-->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <!--Nosso CSS-->
-    <link rel="stylesheet" href="bootstrap/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <!--CSS Bootstrap-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!--Nosso CSS-->
+  <link rel="stylesheet" href="bootstrap/style.css">
 </head>
 
 <body>
-    <div class="container-fluid bg-dark">
-        <div class="d-flex flex-row-reverse bg-dark">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active text-primary" href="">Home</a>
-                        <a class="nav-item nav-link text-primary" href="sobre.html">Sobre Mim</a>
-                        <a class="nav-item nav-link text-primary" href="projetos.html">Projetos</a>
-                    </div>
-                </div>
-            </nav>
+  <div class="container-fluid bg-dark">
+    <div class="d-flex flex-row-reverse bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active text-primary" href="index.html">Home</a>
+            <a class="nav-item nav-link text-primary" href="sobre.html">Sobre Mim</a>
+            <a class="nav-item nav-link text-primary" href="projetos.html">Projetos</a>
+          </div>
         </div>
-
-        <section class="container corpo bg-dark  text-light">
-            <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
-                  <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
-                  <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
-                  <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
-                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-                  </div>
-                </div>
-              </div>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row py-2">
-                <div class="col text-white text-center">
-                    <p>Desenvolvido por Saulo Gomes do Carmo &#169;</p>
-                </div>
-            </div>
-        </footer>
+      </nav>
     </div>
-    <!--Script do Bootstrap: 1º jquery, 2º popper, 3º bootstrap-->
-    <script src="bootstrap/jquery-3.3.1.slim.min.js"></script>
-    <script src="bootstrap/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Conteúdo -->
+    <section class=" container bg-dark py-5">
+      <h1 class="text-center py-3 text-primary">Veja meus projetos</h1>
+
+      <div class="card-deck mx-1 text-center d-flex flex-sm-column flex-lg-row">
+        <article class="card border border-primary">
+          <img class="card-img-top" src="img/formulario.jpg" alt="foto de card">
+          <div class="card-body">
+            <h2 class="card-title">Formulário de Cadastro</h2>
+            <p class="card-text">Formulário de Cadastro desenvolvido com preenchimento de endereço automático</p>
+            <a href="ps.html" class="btn btn-primary">Saiba +</a>
+          </div>
+        </article>
+        <article class="card border border-primary">
+          <img class="card-img-top" src="img/jokenpo.jpg" alt="Xbox">
+          <div class="card-body">
+            <h2 class="card-title">Jogo Jokenpô</h2>
+            <p class="card-text">APP do jogo Jokenpô  desenvolvido em sala de aula</p>
+            <a href="xbox.html" class="btn btn-primary">Saiba +</a>
+          </div>
+        </article>
+        <article class="card border border-primary">
+          <img class="card-img-top" src="img/etagas.jpg" alt="Jogos de Video Game">
+          <div class="card-body">
+            <h2 class="card-title">Etagas</h2>
+            <p class="card-text">Aplicativo Desenvolvido em sala de aula para poder calcular o preço do Alcool ou Gasolina para ver qual compensa mais.</p>
+            <a href="fotos.html" class="btn btn-primary">Saiba +</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row py-2">
+        <div class="col text-white text-center">
+          <p>Desenvolvido por Saulo Gomes do Carmo &#169;</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--Script do Bootstrap: 1º jquery, 2º popper, 3º bootstrap-->
+  <script src="bootstrap/jquery-3.3.1.slim.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
