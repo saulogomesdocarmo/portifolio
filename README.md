@@ -1,2 +1,2 @@
 # portifolio
-Projeto de um portfólio feito na faculdade, utilizando o framework Bootstrap.
+Projeto de um portfólio feito no curso técnico do Senac, utilizando o framework Bootstrap.
